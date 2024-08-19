@@ -71,7 +71,7 @@ button {
     display: flex;
     flex-direction: row;
     gap: 200px;
-    margin-inline-start: -1100px;
+    margin-inline-start: -1140px;
     position: absolute;
     margin-block-start: 14px;
 }
@@ -85,7 +85,7 @@ button {
 svg {
     margin-block-start: 103px;
     border-radius: 20px;
-    margin-inline-start: -160px;
+    margin-inline-start: -158px;
 }
 
 img {
