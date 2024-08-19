@@ -3,8 +3,9 @@
 body {
     font-family: "Poppins", sans-serif;
     align-items: center;
-    height: 900px;
+    height: 100%;
     background-color: #EDA751;
+    width: 100%;
 }
 
 * {
@@ -13,14 +14,14 @@ body {
 }
 
 
-.main-div {
-    width: 1770px;
-    height: 880px;
+main {
+    width: 90%;
+    height: 90%;
     position: absolute;
     background-color: #ffffff;
     border-radius: 20px;
-    margin-inline-start: 130px;
-    margin-block-start: 45px;
+    margin-inline-start: 80px;
+    margin-block-start: 30px;
     filter: drop-shadow(#676767 0rem 0.1rem 4px);
     overflow: visible;
 }
@@ -28,29 +29,30 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    gap: 265px;
-    margin-inline-start: 129px;
-    margin-block-start: 30.5px;
+    margin-inline-start: 29px;
+    margin-block-start: 20px;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 25px;
     color: #EDA751;
-    width: 286px;
-    height: 45px;
+    width: hug(286px)px;
+    height: hug(45px)px;
 }
 
-nav {
+ nav {
     display: flex;
-    gap: 100px;
+    flex-direction: row;
+    gap: 60px;
     margin-block-start: 7.5px;
+    margin-inline-start: 240px;
 }
 
-a {
+ a {
     text-decoration: none;
     color: black;
     font-weight: medium;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 button {
@@ -59,33 +61,39 @@ button {
     border-radius: 20px;
     background-color: #ffffff;
     border: 1px solid #EDA751;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: medium;
+    margin-inline-start: 280px;
+    margin-block-start: -7px;
 }
 
 .content {
     display: flex;
     flex-direction: row;
-    gap: 380px;
-    margin-inline-start: -323px;
+    gap: 200px;
+    margin-inline-start: -1100px;
     position: absolute;
+    margin-block-start: 14px;
 }
 .about {
     width: 611px;
     height: 478px;
-    margin-inline-start: -1319px;
-    margin-block-start: 234px;
+    /* margin-inline-start: -1600px; */
+    margin-block-start: 60px;
 }
 
 svg {
-    margin-block-start: 170px;
+    margin-block-start: 103px;
     border-radius: 20px;
+    margin-inline-start: -160px;
 }
 
 img {
     position: absolute;
-    margin-block-start: 155px;
-    margin-inline-start: 47px;
+    margin-block-start: 28px;
+    margin-inline-start: -59px;
+    width: 370px;
+    height: 475px;
 }
 
 h4 {
@@ -93,39 +101,43 @@ h4 {
     font-weight: medium;
     height: 75px;
     width: 136px;
+    margin-block-start: 30px;
 } 
 
 h1 {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: medium;
-    height: 105px;
-    margin-top: -20px;
+    height: 90px;
+    margin-block-start: -20px;
 }
 
 .head {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: medium;
     color: #EDA751;
     display: inline;
+    margin-block-start: 15px;
 }
 
 p {
-    font-size: 30px;
+    font-size: 23px;
     font-weight: medium;
     color: #676767;
-    margin-block-start: 25px;
-    height: 135px;
-    line-height: 45px;
+    margin-block-start: 20px;
+    height: 110px;
+    line-height: 35px;
+    width: 400px;
 }
 
 .hire {
-    width: 212px;
+    width: 150px;
     height: 65px;
     border-radius: 20px;
     background-color: #EDA751;
-    margin-block-start: 51px;
-    font-size: 30px;
+    margin-block-start: 30px;
+    font-size: 20px;
     font-weight: normal;
     color: #ffffff;
     filter: drop-shadow(#676767 0rem 0.1rem 4px);
+    margin-inline-start: 0px;
 }
